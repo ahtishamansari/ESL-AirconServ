@@ -1,0 +1,156 @@
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  padding: 30px 0;
+  border-bottom: 1px dotted #d9d9d9;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #00aeef;
+  letter-spacing: .15rem;
+}
+
+.navbar .navbar-brand:hover {
+  color: #00aeef;
+}
+
+.navbar {
+  background-color: #f2f2f2 !important;
+}
+
+.navbar .navbar-nav li a {
+  color: #000 !important;
+}
+
+.navbar .navbar-nav li a:hover {
+  color: #00aeef !important;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+/* Carousel */
+
+.carousel-item .img-fluid {
+  width: 100%;
+  height: 550px;
+}
+
+.carousel-item a {
+  display: block;
+  width: 100%;
+}
+
+.carousel-caption {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* About */
+#about {
+  padding: 40px 80px 20px;
+}
+
+.about-us {
+  text-align: center;
+}
+
+/* Services Section */
+
+#services {
+  padding: 40px 80px;
+  background-color: #00aeef;
+  text-align: center;
+}
+
+.services-column {
+  padding: 2% 2%;
+}
+
+.our-services {
+  color: #fff;
+}
+
+/* Testimonials */
+
+#testimonials {
+  padding: 40px 80px;
+  text-align: center;
+}
+
+.testimonial-image {
+  width: 10% !important;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  line-height: 3rem;
+}
+
+/* Company Logos */
+
+#Company-logo {
+  text-align: center;
+  padding-bottom: 3%;
+  border-top: 1px dotted #d9d9d9;
+}
+
+.company-logo {
+  width: 10%;
+  margin: 40px 20px;
+}
+
+/* footer */
+
+#footer {
+  padding: 40px 80px 20px;
+  text-align: center;
+  background-color: #00aeef;
+  Color: #fff;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: #fff;
+}
+
+.copyright {
+  font-size: 12px;
+}
+
+/* media-queries */
+@media (max-width: 991.98px) {
+  h1 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  h1 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 16px;
+  }
+}
+
+
+
+ Indicator background-color
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
